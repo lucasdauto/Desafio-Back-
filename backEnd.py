@@ -1,6 +1,7 @@
-import random
+#import random
 import sqlite3
 
+#cria o banco de dados no db_customer_account assim que é executado.
 conec = sqlite3.connect('db_customer_account.db')
 
 data = conec.cursor()
